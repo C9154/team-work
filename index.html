@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* ---------- menü kısmı css kodları --------- */
+        #menu{background-color: red;
+          /*  height: 100px; */
+        position: sticky;
+        top: 0;
+        }
+        #menu ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            /* border: solid; */
+
+        }
+        #menu ul li {}
+
+        #menu ul li a {
+            display: block ;
+            text-decoration: none;
+            background-color: purple;
+            padding: 10px;
+            margin: 2px;
+            color: white;
+        }
+        #menu ul li a:hover{
+            background-color: violet;
+            color: black
+        }
+
+
+        .anakutu{background-color: royalblue;
+        height: 500px;}
+
+        .section {
+           height: 100vh;
+           display: flex;
+           align-items: center;
+           justify-content: center; 
+        }
+        #anasayfa {
+            background-color: forestgreen;
+        }
+        #hizmetlerimiz {
+            background-color:  khaki;
+        }
+        #hakkimizda {
+            background-color: lightcoral;
+        }
+        #iletişim {
+            background-color: whitesmoke    ;
+        }
+
+        footer{background-color:  orange;
+        height: 100px;
+    }
+    </style>
+</head>
+
+
+
+<body>
+    <div>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Anasayfa</a></li>
+                <li><a href="#">Hizmetlerimiz</a></li>
+                <li><a href="#">hakkımızda</a></li>
+                <li><a href="#">iletişim</a></li>
+
+
+
+            </ul>
+        </nav>
+
+        <main class="anakutu">
+            <section id="anasayfa" class="section">Anasayfa</section>
+            <section id="Hizmetlerimiz" class="section">Hizmetlerimiz</section>
+            <section id="hakkimizda" class="section">hakkimizda</section>
+            <section id="iletişim" class="section">iletişim</section>
+            main
+        </main>
+
+        <footer id="enalt">
+            footer
+        </footer>
+
+
+    </div>
+
+    
+</body>
+
+</html>
